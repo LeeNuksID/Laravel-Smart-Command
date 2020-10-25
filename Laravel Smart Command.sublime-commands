@@ -1,0 +1,514 @@
+[
+    {
+        "caption": "Laravel: Clear Compiled",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "clear-compiled"
+        }
+    },
+    {
+        "caption": "Laravel: Down",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "down"
+        }
+    },
+    {
+        "caption": "Laravel: Help",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "help",
+            "fill_in": true,
+            "fill_in_lable": "Enter the command you need help with"
+        }
+    },
+    {
+        "caption": "Laravel: List",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "list"
+        }
+    },
+    {
+        "caption": "Laravel: Migrate",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "migrate"
+        }
+    },
+    {
+        "caption": "Laravel: Optimize",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "optimize"
+        }
+    },
+    {
+        "caption": "Laravel: Serve",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "serve"
+        }
+    },
+    {
+        "caption": "Laravel: Up",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "up"
+        }
+    },
+    {
+        "caption": "Laravel: App:Name",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "app:name",
+            "fill_in": true,
+            "fill_in_lable": "Enter your desired namespace"
+        }
+    },
+    {
+        "caption": "Laravel: Auth:Clear Resets",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "auth:clear-resets"
+        }
+    },
+    {
+        "caption": "Laravel: Cache:Clear",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "cache:clear"
+        }
+    },
+    {
+        "caption": "Laravel: Cache:Table",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "cache:table"
+        }
+    },
+    {
+        "caption": "Laravel: Config:Cache",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "config:cache"
+        }
+    },
+    {
+        "caption": "Laravel: Config:Clear",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "config:clear"
+        }
+    },
+    {
+        "caption": "Laravel: DB:Seed",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "db:seed"
+        }
+    },
+    {
+        "caption": "Laravel: Event:Generate",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "event:generate"
+        }
+    },
+    {
+        "caption": "Laravel: Key:Generate",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "key:generate"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Auth",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:auth",
+            "fill_in": true,
+            "fill_in_lable": "Enter make:auth options (optional)"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Channel",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:channel",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the channel class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Command",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:command",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the command class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Controller",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:controller",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the controller class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Event",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:event",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the event class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Exception",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:exception",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the exception class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Factory",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:factory",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the factory class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Job",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:job",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the job class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Listener",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:listener",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the listener class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Mail",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:mail",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the mailable class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Middleware",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:middleware",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the middleware class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Migration",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:migration",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the migration"
+        }
+    },
+    {
+        "caption": "Laravel Generate 5: Make:Migration:Schema",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:migration:schema",
+            "fill_in": true,
+            "fill_in_lable": "Enter the Migration Name",
+            "fields": true,
+            "fields_label": "Table fields in the column:type format"
+        }
+    },
+    {
+        "caption": "Laravel Generate 5: Make:Migration:Pivot",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:migration:pivot",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the first table and of the second table separated by a space"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Model",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:model",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the model"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Notification",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:notification",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the notification class"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Observer",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:observer",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the observer class"
+        }
+    },
+    {
+        "caption": "Laravel: Make Policy",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:policy",
+            "fill_in": true,
+            "fill_in_lable": "Enter the Policy name"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Provider",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:provider",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the provider"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Request",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:request",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the request"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Resource",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:resource",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the resource"
+        }
+    },
+    {
+        "caption": "Laravel: Make Rule",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:rule",
+            "fill_in": true,
+            "fill_in_lable": "Enter the rule name"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Seeder",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:seeder",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the seeder"
+        }
+    },
+    {
+        "caption": "Laravel: Make:Test",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "make:test",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the test"
+        }
+    },
+    {
+        "caption": "Laravel: Migrate:Install",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "migrate:install"
+        }
+    },
+    {
+        "caption": "Laravel: Migrate:Fresh (Drop all tables and re-run all migrations)",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "migrate:fresh",
+        }
+    },
+    {
+        "caption": "Laravel: Migrate:Refresh (Reset and re-run all migrations)",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "migrate:refresh"
+        }
+    },
+    {
+        "caption": "Laravel: Migrate:Reset",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "migrate:reset"
+        }
+    },
+    {
+        "caption": "Laravel: Migrate:Rollback",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "migrate:rollback"
+        }
+    },
+    {
+        "caption": "Laravel: Migrate:Status",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "migrate:status"
+        }
+    },
+    {
+        "caption": "Laravel: Queue:List Failed Jobs",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "queue:failed"
+        }
+    },
+    {
+        "caption": "Laravel: Queue:Failed Table",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "queue:failed-table"
+        }
+    },
+    {
+        "caption": "Laravel: Queue:Flush",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "queue:flush"
+        }
+    },
+    {
+        "caption": "Laravel: Queue:Forget",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "queue:flush",
+            "fill_in": true,
+            "fill_in_table": "Enter the ID of the failed job"
+        }
+    },
+    {
+        "caption": "Laravel: Queue:Listen",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "queue:listen",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of connection"
+        }
+    },
+    {
+        "caption": "Laravel: Queue:Restart",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "queue:restart"
+        }
+    },
+    {
+        "caption": "Laravel: Queue:Retry",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "queue:retry"
+        }
+    },
+    {
+        "caption": "Laravel: Queue:Subscribe",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "queue:subscribe",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of Iron.io queue and the URL to be subscribed"
+        }
+    },
+    {
+        "caption": "Laravel: Queue:Table",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "queue:table"
+        }
+    },
+    {
+        "caption": "Laravel: Queue:Work",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "queue:work",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of connection"
+        }
+    },
+    {
+        "caption": "Laravel: Route:Cache",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "route:Cache"
+        }
+    },
+    {
+        "caption": "Laravel: Route:Clear",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "route:clear"
+        }
+    },
+    {
+        "caption": "Laravel: Route:List",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "route:list"
+        }
+    },
+    {
+        "caption": "Laravel: Schedule:Run",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "schedule:run"
+        }
+    },
+    {
+        "caption": "Laravel: Session:Table",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "session:table"
+        }
+    },
+    {
+        "caption": "Laravel: Vendor:Publish",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "vendor:publish",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of package"
+        }
+    },
+    {
+        "caption": "Laravel: View:Clear",
+        "command": "laravel_smart_command",
+        "args": {
+            "command": "view:clear"
+        }
+    }
+]
