@@ -1,6 +1,6 @@
 <p align="center"><img src="https://res.cloudinary.com/aibnuhibban/image/upload/v1595054745/Github/Laravel%20Smart%20Command/icon_text_z0nwy5.png" width="400">
 </p>
-<p align="center"><b>Laravel Smart Commands for Laravel within Visual Studio Code</b></p>
+<p align="center"><b>Laravel Smart Commands for Laravel within Sublime Text 3</b></p>
 
 <p>Support For <strong>Laravel 8</strong></p>
 
